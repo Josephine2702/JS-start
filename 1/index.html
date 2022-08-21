@@ -6,18 +6,30 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
 </head>
+<style>
+
+.images{
+    margin-top: 100px;
+}
+
+</style>
 <body>
 
-        <button id="name" onclick="askName();">Нажми меня</button>
 
+    <input type="text">
+        <button id="btn"  >Твое имя</button>
+    
+    
+        <div id="back" class="getName" >
+        </div>
 
-    <script>
-    
-    function askName()
-    { let name = prompt("Как тебя зовут?");
-        alert(`Привет ${name}`)
-    }
-    
+        <div class="images">
+            <button class="moveTo">Вперед</button>
+            <img  class="picture" src="./assets/IMAGE4.jpg" alt="">
+            <button class="moveBack" >Назад</button>
+        </div>
+    <script src="./1.js">
+
     </script>
 </body>
 </html>
