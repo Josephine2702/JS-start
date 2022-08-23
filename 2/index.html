@@ -20,40 +20,13 @@
 <body>
 
         <div class="buttons">
-            <button class="add action" onclick="actionAdd();">Сложить</button>
-            <button class="subtr action" onclick="actionSubtr();">Вычесть</button>
-            <button class="multi action" onclick="actionMulti();">Умножить</button>
-            <button class="divid action" onclick="actionDivid();">Разделить</button>
+            <button class="add action">+</button>
+            <button id="subtr" class="action" >-</button>
+            <button class="multi action">*</button>
+            <button class="divid action">/</button>
         </div>
 
 
-    <script>
-    
-    function actionAdd()
-    { let a = prompt("Первое число?", 1);
-        let b = prompt("Второе число?", 2);
-        alert(Number(a) + Number(b))
-    }
-
-    function actionSubtr()
-    { let a = prompt("Первое число?", 1);
-        let b = prompt("Второе число?", 2);
-        alert(Number(a) - Number(b))
-    }
-
-    function actionMulti()
-    { let a = prompt("Первое число?", 1);
-        let b = prompt("Второе число?", 2);
-        alert(Number(a) * Number(b))
-    }
-
-    function actionDivid()
-    { let a = prompt("Первое число?", 1);
-        let b = prompt("Второе число?", 2);
-        alert(Number(a) / Number(b))
-    }
-
-    
-    </script>
+    <script src="./index.js"></script>
 </body>
 </html>
